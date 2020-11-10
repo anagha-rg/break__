@@ -1,0 +1,8 @@
+secWord="chupacabra"
+counter=0
+while True:
+    w=input("Enter a word:")
+    if w==secWord:
+        print("You've successfully left the loop.")
+        break
+    counter=counter+1
